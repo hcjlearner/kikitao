@@ -1,0 +1,265 @@
+body{
+  background-color: #fffff;
+  color: f00000;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  font-family: Calibri;
+}
+
+ul{
+  padding: 0;
+  list-style: none;
+}
+
+.bProfile{
+  float: left;
+  width: 40%;
+}
+.bInfo{
+  float: right;
+  width: 60%;
+  text-align: center;
+}
+.bInfo li{
+  display: inline-block;
+}
+.aHeader{
+  background-color: #f9fd00;
+  width: auto;
+  height: 160px;
+  margin: 20px 0;
+}
+.img-profilo {
+  width: 160px;
+  border-radius: 50%;
+  padding: 0 20px;
+  margin: 0;
+  text-align: left;
+}
+h1-tit{
+  padding: 10px;
+  width: 20px;
+  text-align: center;
+  word-break: break-all;
+}
+/* 中間5區塊 */
+.aMainer{
+  padding-bottom: 100px;
+}
+.bContent{
+  display: inline-block;
+  width: 50%;
+  margin-left: -4px 0;
+}
+.bContent:nth-child(1){
+  margin-left: 0;
+}
+.c-head{
+  margin: 0 30px;
+  background-color: #f9fd00;
+}
+.h4-stit{
+  height: 20px;
+  margin: 0;
+}
+.c-desc{
+  margin: 0 30px;
+  height: auto;
+}
+#codeconSkills {
+    font-size: 20px;
+    height: auto;
+}
+.codeconSkillbar {
+    width: 90%;
+    height: 50px;
+    position: relative;
+    background: rgba(17, 17, 17, .3);
+    margin: 20px auto;
+}
+#codeconHTML {
+    width: 100%;
+    animation: Animate-HTML 4s;
+    -webkit-animation: Animate-HTML 4s;
+    -moz-animation: Animate-HTML 4s;
+    -o-animation: Animate-HTML 4s;
+    height: 50px;
+    position: absolute;
+    background-color: #ea8564;
+}
+@keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 100%}
+}@-webkit-keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 100%}
+}@-moz-keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 100%}
+}@-o-keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 100%}
+}
+#codeconCSS {
+    animation: Animate-CSS 5s;
+    -webkit-animation: Animate-CSS 5s;
+    -moz-animation: Animate-CSS 5s;
+    -o-animation: Animate-CSS 5s;
+    width: 70%;
+    height: 50px;
+    position: absolute;
+    background-color: #55a69f;
+}
+@keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 70%}
+}@-webkit-keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 70%}
+}@-moz-keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 70%}
+}@-o-keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 70%}
+}
+#codeconjQuery {
+    animation: Animate-jQuery 5s;
+    -webkit-animation: Animate-jQuery 5s;
+    -moz-animation: Animate-jQuery 5s;
+    -o-animation: Animate-jQuery 5s;
+    width: 40%;
+    height: 50px;
+    position: absolute;
+    background-color: #99856d;
+}
+@keyframes Animate-jQuery {
+    from {
+    width: 10px;
+}
+to {
+    width: 40%}
+}@-webkit-keyframes Animate-jQuery {
+    from {
+    width: 10px;
+}
+to {
+    width: 40%}
+}@-moz-keyframes Animate-jQuery {
+    from {
+    width: 10px;
+}
+to {
+    width: 40%}
+}@-o-keyframes Animate-jQuery {
+    from {
+    width: 10px;
+}
+to {
+    width: 40%}
+}
+#codeconJS {
+    animation: Animate-JS 4s;
+    -webkit-animation: Animate-JS 4s;
+    -moz-animation: Animate-JS 4s;
+    -o-animation: Animate-JS 4s;
+    width: 65%;
+    height: 50px;
+    position: absolute;
+    background-color: #c44e45;
+}
+@keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+}@-webkit-keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+}@-moz-keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+}@-o-keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+}
+#codeconXML {
+    animation: Animate-XML 4s;
+    -webkit-animation: Animate-XML 4s;
+    -moz-animation: Animate-XML 4s;
+    -o-animation: Animate-XML 4s;
+    width: 40%;
+    height: 50px;
+    position: absolute;
+    background-color: #5aa669;
+}
+@keyframes Animate-XML {
+    from {
+    width: 10px;
+}
+to {
+    width: 40%}
+}@-webkit-keyframes Animate-XML {
+    from {
+    width: 10px;
+}
+to {
+    width: 40%}
+}@-moz-keyframes Animate-XML {
+    from {
+    width: 10px;
+}
+to {
+    width: 40%}
+}@-o-keyframes Animate-XML {
+    from {
+    width: 10px;
+}
+to {
+    width: 40%}
+}
+.aFooterWrap{
+  background-color: #666666;
+  width: auto;
+  height: 160px;
+  margin: 100px 0;
+  position: relative;
+}
+.aFooter {
+  display: inline-block;
+}
