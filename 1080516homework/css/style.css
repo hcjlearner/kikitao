@@ -29,13 +29,15 @@ body{
     vertical-align: top;
     /* background-color: white;可以設定一個白色圓形 */
     content: '';
-    background: url(https://pic.pimg.tw/a93090b03/1329887210-2688650893_q.jpg);/* 填滿這張圖片 */ 
+    background: url(https://media.karousell.com/media/photos/products/2018/05/18/_______1526653677_f3ed9a51.jpg);
+    /*background: url(https://pic.pimg.tw/a93090b03/1329887210-2688650893_q.jpg); 填滿這張圖片 */ 
     background-size: contain; /*指定背景圖片大小使背景圖縮小至內容的大小*/
     border-radius: 50%;
     position: relative;
     top: -12px;
     left: -9px;
     z-index: 0;
+    border-style: solid;
 }
 
 .h1-tit {
@@ -150,7 +152,9 @@ body{
     content: '';
     width: 40px;
     height: 40px;
-    background: url(https://previews.123rf.com/images/redlinevector/redlinevector1702/redlinevector170205928/71513942-puss-in-boots-vector-icon.jpg);
+    background: url(http://d3u67r7pp2lrq5.cloudfront.net/product_photos/65779191/file_e45532ddf1_original.png);
+    background-color: white;
+    /*background: url(https://previews.123rf.com/images/redlinevector/redlinevector1702/redlinevector170205928/71513942-puss-in-boots-vector-icon.jpg);*/
     background-size: contain;
     border-style: solid;
     border-color: black;
