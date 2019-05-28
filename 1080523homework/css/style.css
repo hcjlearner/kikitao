@@ -536,3 +536,42 @@ to {
     right: 0;
     bottom: 0;
 }
+
+@media screen and (max-width:864px) {
+.ul-profile-show {
+    width: 495px;
+    height: 247.5px;
+    margin: 0 100px;
+}
+
+.li-profile-show01 {
+    width: 330px;
+    height: 165px;
+    background-size: 330px  165px;
+}
+
+.li-profile-show02 {
+    width: 165px;
+    height: 82.5px;
+    background-size: 165px  82.5px;
+}
+
+.li-profile-show03{
+    width: 165px;
+    height: 82.5px;
+    left: 165px;
+    background-size: 165px  82.5px;
+}
+
+.li-profile-show04{
+    width: 165px;
+    height: 82.5px;
+    background-size: 165px  82.5px;
+}
+
+.li-profile-show05{
+    width: 165px;
+    height: 165px;
+    background-size: 165px  165px;
+}
+}
